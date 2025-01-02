@@ -1,8 +1,6 @@
-/* 
-    Incorrect example of SRP which violates the SRP principle.
-    Here userManager is responsible for authentication, validation and creation of user profile.
-    so it clearly violates the SRP.
-*/
+// At first we will see wrong example of SRP which violates the SRP principle.
+// Here we have a class which is responsible for user management.
+// So it clearly violates the SRP. SRP say a class should be responsible for a single task only.
  
 /*
 

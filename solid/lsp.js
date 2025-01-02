@@ -1,6 +1,6 @@
 /* 
     We will see example of class which violates the LSP principle. 
-    Here Vehicle class is responsible for starting engine of vehicle and bicycle doesn't have engine
+    LSV say a subclass should be able to replace the parent class.
     so it clearly violates the LSP.
 */
 

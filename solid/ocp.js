@@ -1,8 +1,7 @@
 /* 
     Incorrect example of OCP which violates the OCP principle.
-    Here Customer class is responsible for getting discount based on customer type.
-    Here if we want to add a new customer type then we have to change the code
-    so it clearly violates the OCP.
+    OCP say a class should be open for extension but closed for modification.
+    So it clearly violates the OCP.
 */
 
 /*

@@ -1,6 +1,6 @@
 // At first we will see wrong example of DIP which violates the DIP principle.
-// Here we have a class which is responsible for sending email.
-// So it clearly violates the DIP.
+// DIP says a high-level module should not depend on a low-level module. both should depend on abstractions.
+// So it clearly violates the DIP. Here it is tightly coupled.
 
 /*
 class EmailSender {
@@ -19,7 +19,8 @@ class NotificationService {
 */
 
 // Now we will see correct example of DIP which follows the DIP principle.
-// Here we have an interface which is responsible for sending email.
+// Here in this example NotificationService is a high-level module which depends on EmailSender which is a low-level module.
+// High-level module should not depend on low-level module. 
 // So it follows the DIP.
 
 interface EmailSender {
